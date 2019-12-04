@@ -34,12 +34,12 @@
 
             }
 
-            [div class="heart"]
+            [id^=div]
             {
                 display: none;
             }
 
-            #heart {
+            #div1 {
                 background-color: red;
                 display: inline-block;
                 height: 50px;
@@ -52,8 +52,8 @@
                 width: 50px;
 }
 
-                #heart:before,
-                #heart:after {
+                #div1:before,
+                #div1:after {
                   content: "";
                   background-color: red;
                   border-radius: 50%;
@@ -62,12 +62,12 @@
                   width: 50px;
                 }
 
-                #heart:before {
+                #div1:before {
                   top: -25px;
                   left: 0;
                 }
 
-                #heart:after {
+                #div1:after {
                   left: 25px;
                   top: 0;
                 }
